@@ -31,7 +31,7 @@ jobs:
           arduino-cli compile \
             --fqbn esp32:esp32:esp32c3 \
             --output-dir ./build \
-            ./DelfiOs/DelfiOs.ino
+            ./DelfiOs.ino
 
       - name: Upload firmware as artifact
         uses: actions/upload-artifact@v3
